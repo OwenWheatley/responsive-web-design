@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Competitive Programming Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <h1 id="title">Competitive Programming Survey</h1>
+        <p id="description">
+          Please take your time to fill out the following survey so we can learn as much about your competitive programming experience as possible
+        </p>
+      </div>
+      <div id="main">
+        <form id="survey-form">
+          <div id="form-section">
+            <label id="name-label" for="name">
+              Name
+            </label>
+            <input required id="name" type="text" placeholder="Enter your name">
+            </input>
+          </div>
+          <div id="form-section">
+            <label id="email-label" for="email">
+              Email
+            </label>
+            <input required id="email" type="email" placeholder="Enter your email">
+            </input>
+          </div>
+          <div id="form-section">
+            <label id="number-label" for="number">
+              Age
+            </label>
+            <input id="number" type="number" min=10 max=100 placeholder="Enter your age">
+            </input>
+          </div>
+          <div id="form-section">
+            <label id="dropdown-label" for="dropdown">
+              Which is your favourite platform?
+            </label>
+            <select id="dropdown">
+              <option selected disabled>Select platform</option>
+              <option value="Leetcode">Leetcode</option>
+              <option value="Leetcode">Topcoder</option>
+              <option value="HackerRank">HackerRank</option>
+              <option value="Codeforces">Codeforces</option>
+              <option value="Codewars">Codewars</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div id="form-section">
+            <label id="textarea-label" for="textarea">
+              If Other, which platform?
+            </label>
+            <textarea id="textarea" placeholder="Enter your platform here">
+            </textarea>
+          </div>
+          <div id="form-section">
+            <label id="checkbox-label">
+              Which types of problems have you come across?
+            </label> 
+            <label for="checkbox-input"><input id="checkbox-input" value="ArraysHashing" type="checkbox" />
+            Arrays & Hashing</label>
+            <label for="checkbox-input"><input id="checkbox-input" value="TwoPointers" type="checkbox" />
+            Two Pointers</label>
+            <label for="checkbox-input"><input id="checkbox-input" value="Stack" type="checkbox" />
+            Stack</label>
+            <label for="checkbox-input"><input id="checkbox-input" value="BinarySearch" type="checkbox" />
+            Binary Search</label>
+            <label for="checkbox-input"><input id="checkbox-input" value="SlidingWindow" type="checkbox" />
+            Sliding Window</label>
+            <label for="checkbox-input"><input id="checkbox-input" value="LinkedList" type="checkbox" />
+            Linked List</label>
+            </input>
+            <label for="checkbox-input"><input id="checkbox-input" value="Trees" type="checkbox" />
+            Trees</label>
+            </input>
+          </div>
+          <div id="form-section">
+            <label id="radio-label">
+              The main reason I do competitive programming is to
+            </label> 
+            <label for="fun"><input id="fun" value="fun" type="radio" name="cp-reason" class="radio-input" />Have Fun</label>
+            <label for="learn"><input id="learn" value="learn" type="radio" name="cp-reason" class="radio-input" />Learn</label>
+          </div>
+          <div id="form-section">
+            <div id="center">
+            <input id="submit" type="submit" value="Submit" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
